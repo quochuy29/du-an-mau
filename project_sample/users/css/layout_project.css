@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.full-body{
+    width: 1290px;
+    margin: auto;
+}
+.top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.name-shop{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.search{
+    line-height: 100px;
+}
+.admin{
+    position: relative;
+    top: 3px;
+}
+.login{
+    line-height: 100px;
+    padding-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.search input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 35px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+.login-account h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26b4fe;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap : 80px;
+    height: 100px;
+    background-color:#f7f6f6;
+}
+.row{
+    text-align: left;
+    margin-left: 450px;
+}
+.form-group{
+    margin-top: 10px;
+}
+.save{
+    margin-bottom: 70px;
+    margin-right: 200px;
+}
+.save-1{
+    margin-right: 150px;
+}
+.save-2{
+    float: right;
+    margin-top: 45px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
